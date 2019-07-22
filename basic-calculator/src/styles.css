@@ -1,0 +1,32 @@
+.App {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3.6rem;
+}
+.inner-grid {
+  padding: 1rem;
+  width: 15%;
+  margin: 0rem auto 4rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(4, 50px);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: rgb(216, 191, 122);
+  border: 1px solid black;
+}
+.child-grid-items {
+  justify-self: center;
+  align-self: center;
+}
+.result {
+  width: 15%;
+  margin: 3rem auto 0rem auto;
+  background-color: rgb(58, 57, 53);
+  color: #fff;
+  padding: 1rem;
+  text-align: right;
+  border: 1px solid black;
+}
