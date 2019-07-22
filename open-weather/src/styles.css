@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 4rem 0;
+}
+input {
+  margin: 10px auto;
+  width: 30rem;
+  height: 3rem;
+  padding: 0 10px;
+  border: 1px solid brown;
+  outline: 0;
+  border-radius: 0.4rem;
+  font-size: 0.8rem;
+}
+input:focus {
+  border-color: red;
+}
+.weather-type {
+  width: 420px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+small {
+  margin: 2rem 0;
+  font-size: 12px;
+  color: gray;
+}
+.header {
+  margin-top: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.info {
+  color: gray;
+  padding: 1rem 0;
+  font-size: 0.8rem;
+}
