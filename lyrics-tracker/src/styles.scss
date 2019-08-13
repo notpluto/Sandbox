@@ -1,0 +1,107 @@
+.App{
+  background: black;
+  font-family: 'Roboto Mono', monospace;
+  .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem;
+    color: white;
+    h1{
+      font-weight: 300;
+    }
+    a{
+      text-decoration: none;
+      color: #fff
+    }
+  }
+}
+
+table{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+  width: 100%;
+  padding: 1rem;
+  margin: 2rem 0;
+  thead{
+      td{
+        background: lightblue;
+        border-bottom: 1px solid lightblue;
+        padding: 0.6rem;
+      }
+    font-size: 1.2rem;
+  }
+  tbody{
+    td{
+      border-bottom: 1px solid lightblue;
+      padding: 1.2rem 0.6rem;
+    }
+  }
+}
+
+p{
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2rem;
+}
+.wrapper{
+  margin: 1rem auto;
+  max-width: 980px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  .container{
+    margin: 1rem auto;
+    display: inline-flex;
+    button{
+      width: 2rem;
+      height: 1.4rem;
+      background: black;
+      color: #fff;
+      outline: none;
+      text-transform: uppercase;
+      margin-right: 1.6rem;
+      cursor: pointer;
+    }
+  }
+}
+
+// track search styles
+.track-search{
+  margin: 2rem auto;
+  max-width: 800px;
+  text-align: center;
+  width: 100%;
+  input{
+    width: 30rem;
+    border-radius: 4px;
+    border: 1px dotted red;
+    height: 1.4rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    outline: none;
+  }
+  input:focus{
+    border: 1px double blue;
+  }
+}
+
+// display lyrics
+.display-lyrics{
+  font-family: 'Roboto Mono', monospace;
+  margin: 4rem auto;
+  max-width: 600px;
+  text-align: center;
+  width: 100%;
+  p{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    border-top: 2px double maroon;
+    border-left: 2px double maroon;
+    text-align: justify;
+    padding: 2rem;
+    letter-spacing: 2px;
+  }
+  div{
+
+  }
+}
