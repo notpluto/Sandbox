@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  width: 20rem;
+  height: 2rem;
+  margin: 2rem 0;
+  outline: 0;
+  padding: 0 1rem;
+}
+
+input:focus {
+  border: 2px solid green;
+}
+
+.hexcolor {
+  margin: 0 auto;
+  border: 2px solid purple;
+  height: 200px;
+  width: 200px;
+}
+.make-it-circle {
+  border-radius: 50%;
+}
